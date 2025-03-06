@@ -11,10 +11,10 @@ pipeline {
       steps {
         echo 'Testing...'
         snykSecurity(
+          severity: 'high',
           snykInstallation: 'snyk_NichFos',
           snykTokenId: 'snyk_API_NichFOS',
-          severity: 'high',
-          additionalArguments: 'https://github.com/NichFos/jenkins-snyk-integration.git', 
+          additionalArguments: '--iac https://github.com/NichFos/jenkins-snyk-integration.git', 
           // place other parameters here
         )
       }
