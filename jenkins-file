@@ -15,7 +15,7 @@ pipeline {
           snykTokenId: 'snyk_API_NichFOS',
           organisation: 'NichFos',
           projectName: 'NichFos/jenkins-snyk-integration',
-          additionalArguments: 'IAC',
+          additionalArguments: 'iac',
           // place other parameters here
         )
       }
