@@ -15,7 +15,7 @@ pipeline {
           snykTokenId: 'snyk_API_NichFOS',
           organisation: 'NichFos',
           projectName: 'NichFos/jenkins-snyk-integration',
-          
+          targetFile: 'package.json',
           // place other parameters here
         )
       }
