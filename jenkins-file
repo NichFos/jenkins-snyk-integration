@@ -5,7 +5,7 @@ pipeline {
     stage('Checkout') {
       steps {
         git branch: 'main',
-        url 'https://github.com/NichFos/jenkins-snyk-integration.git'
+        url: 'https://github.com/NichFos/jenkins-snyk-integration.git'
       }
     }
     stage('Build') {
