@@ -15,7 +15,7 @@ pipeline {
           snykTokenId: 'snyk_API_NichFOS',
           organisation: 'NichFos',
           projectName: 'NichFos/jenkins-snyk-integration',
-          targetFile: '2-Subnets.tf',
+          additionalArguments: 'IAC',
           // place other parameters here
         )
       }
