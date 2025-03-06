@@ -13,8 +13,8 @@ pipeline {
         snykSecurity(
           snykInstallation: 'snyk_NichFos',
           snykTokenId: 'snyk_API_NichFOS',
+          severityThreshold: 'high',
           projectName: 'NichFos/jenkins-snyk-integration',
-          additionalArguments: 'iac',
           // place other parameters here
         )
       }
